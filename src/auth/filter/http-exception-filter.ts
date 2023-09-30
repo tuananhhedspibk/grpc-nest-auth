@@ -8,7 +8,7 @@ import {
 import { HttpArgumentsHost } from '@nestjs/common/interfaces';
 import { Request, Response } from 'express';
 
-// Sử dụng với mục đích đíc: do lần này triển khai gRPC server nên khi phát sinh sin
+// Sử dụng với mục đích đích: do lần này triển khai gRPC server nên khi phát sinh
 // ngoại lệ từ DTO validate sẽ trả về như response thông thường của gRPC server
 // thay vì HttpException
 
